@@ -1,0 +1,109 @@
+.heading{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.heading h1{
+    float:left;
+    padding-left: 5%;
+    width:60%;
+    font-size: 300%;
+}
+.heading img{
+    position: relative;
+    width:10%;
+    margin-top: calc(1%);
+}
+.heading h2{
+    float: right;
+    width: 25%;
+    text-align: center;
+    margin-top: calc(5%);
+}
+
+.navi1 {
+    width:100%;
+    margin-top: 1%;
+    background-color: #690;
+    font-size: 17px;
+}         
+.navi1 ul {
+    /* list-style: none; */
+    margin-left: 50px;
+}           
+.navi1 li {
+    display: inline;                
+}           
+.navi1 a {
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 20px;
+}           
+.navi1 a:hover {
+    background-color: #060;
+}
+
+#bodypart{
+    position: absolute;
+    margin-top: 1px;
+}
+#mypic0{
+    width:80%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+#mypic1 {
+    width:35%;
+    float:left;
+    padding-left: 5%;
+    padding-right:5%;
+}
+#mypic2 {
+    width:35%;
+    float:right;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.myintro{
+    float: right;
+    margin-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.mypassion{
+    float: left;
+    padding-left: 5%;
+    width: 95%;
+    padding-bottom: 5%;
+}
+
+#contact_online{
+    margin-left: 8%;
+}
+#contact_online input{ /*the style of dialogue in feedback */
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    padding: 26px 28px;
+    width: 620px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Microsoft soft";
+    word-break: break-all;
+}
+#contact_online #contact_dis{
+    float:right;
+    width:30%;
+}
+
+#button{
+    margin-top: 3%;
+
+}
+#button input{/*the style of button in feedback */
+    width:200px;
+    font-size:18px;
+    margin-bottom: 2%;
+    background-color:rgb(57, 221, 196);
+}
